@@ -1,15 +1,15 @@
-# Apigee Seed Samples
-Source code for various samples that are listed on [Apigee Seed](https://seed.apigeese.net)
+# Basic Quota
 
-## Contributing
-TODO
+Simple API Proxy that demonstrates Apigee Edge's Quota policy to limit the number of requests that an API proxy allows over a time interval, such as a minute, hour, day, week, or month.
+
+## Video Demonstration
+[![Basic Quota](http://img.youtube.com/vi/6bLSc7zi17o/0.jpg)](https://youtu.be/6bLSc7zi17o)
+
 
 ## License
 
-All the samples that are provided through this repository carry an Apache 2.0 license by default unless stated otherwise.
-
 ```
-Copyright 2016 Apigee
+Copyright 2016 Apigee Corporation
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

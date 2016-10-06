@@ -1,15 +1,13 @@
-# Apigee Seed Samples
-Source code for various samples that are listed on [Apigee Seed](https://seed.apigeese.net)
+# OAuth 2.0 using Client Credentials
 
-## Contributing
-TODO
+This sample shows how use the OAuth 2.0 "client credentials" grant type to return an OAuth access token for an application based on the application's own credentials. (This is sometimes called "two-legged OAuth.") 
+
+This sample uses Apigee Edge's OAuth 2.0 policy to generate the access token on a specific URL.
 
 ## License
 
-All the samples that are provided through this repository carry an Apache 2.0 license by default unless stated otherwise.
-
 ```
-Copyright 2016 Apigee
+Copyright 2016 Apigee Corporation
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

@@ -1,5 +1,5 @@
 {
-  "name": "sql/script-threat-protection",
+  "name": "sql-script-threat-protection",
   "version": "0.0.1",
   "description": "Sample that demonstrates threat protection policy to keep your data safe by protecting your APIs and microservices from SQL/Script injection",  
   "directories": {

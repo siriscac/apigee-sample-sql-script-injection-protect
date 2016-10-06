@@ -1,0 +1,23 @@
+{
+  "name": "quota-basic",
+  "version": "0.0.1",
+  "description": "A Proxy to demonstrate how to test Quota Policy",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha "
+  },
+  "dependencies":{
+    "chai":"*",
+    "request":"*",
+    "async":"*"  
+  },
+  "dependencies":{
+    "gulp":"*",
+    "apigeetool" : "mukundha/apigeetool-node"
+  },
+  "author": "mukundha@apigee.com",
+  "license": "ISC"
+}

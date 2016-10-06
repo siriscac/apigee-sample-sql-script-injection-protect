@@ -1,0 +1,24 @@
+{
+  "name": "oauth-client-credentials",
+  "version": "0.0.1",
+  "description": "A Proxy to demonstrate how to test OAuth Client Credentials flow",
+  
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha "
+  },
+  "dependencies":{
+    "chai":"*",
+    "request":"*",
+    "async":"*"
+  },
+  "dependencies":{
+    "gulp":"*",
+    "apigeetool" : "mukundha/apigeetool-node",
+    "seed-sdk" : "mukundha/seed-sdk"
+  },
+  "author": "mukundha@apigee.com",
+  "license": "ISC"
+}
