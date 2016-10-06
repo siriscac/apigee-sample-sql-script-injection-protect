@@ -4,10 +4,9 @@ API-first architectures enable companies to expose APIs as "products." Using the
 ## Blacklist Patterns
 This sample covers the following blacklist patterns
 
-| Name                          | Regular Expression                                                                |
-|-------------------------------|-----------------------------------------------------------------------------------|
-| SQL Injection                 | ```[\s]*((delete)|(exec)|(drop\s*table)|(insert)|(shutdown)|(update)|(\bor\b))``` |
-| Server-Side Include Injection | ```<!--\s*<!--(include|exec|echo|config|printenv)\s+.*```    XML encoded: ```&lt;!--\s*&lt;!--(include|exec|echo|config|printenv)\s+.*```                   |
+
+* SQL Injection:  ```[\s]*((delete)|(exec)|(drop\s*table)|(insert)|(shutdown)|(update)|(\bor\b))``` |
+* Server-Side Include Injection: ```<!--\s*<!--(include|exec|echo|config|printenv)\s+.*```   (XML encoded: ```&lt;!--\s*&lt;!--(include|exec|echo|config|printenv)\s+.*```)               
                                                                                                       
 
 ## License
