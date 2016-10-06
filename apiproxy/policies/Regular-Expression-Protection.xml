@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RegularExpressionProtection async="false" continueOnError="false" enabled="true" name="Regular-Expression-Protection">
+    <DisplayName>Regular Expression Protection</DisplayName>
+    <Properties/>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <JSONPayload>
+        <JSONPath>
+            <Pattern ignoreCase="false">pattern</Pattern>
+            <Expression>expression</Expression>
+        </JSONPath>
+    </JSONPayload>
+    <URIPath>
+        <Pattern>[tT]rue</Pattern>
+        <Pattern>.*true.*</Pattern>
+        <Pattern>[\s]*((delete)|(exec)|(drop\s*table)|(insert)|(shutdown)|(update)|(\bor\b))</Pattern>
+        <Pattern>&lt;\s*script\b[^>]*>[^&lt;]+&lt;\s*/\s*script\s*></Pattern>
+    </URIPath>
+    <QueryParam name="query">
+        <Pattern>[tT]rue</Pattern>
+        <Pattern>.*true.*</Pattern>
+        <Pattern>[\s]*((delete)|(exec)|(drop\s*table)|(insert)|(shutdown)|(update)|(or))</Pattern>
+        <Pattern>&lt;\s*script\b[^>]*>[^&lt;]+&lt;\s*/\s*script\s*></Pattern>
+    </QueryParam>
+    <Source>request</Source>
+    <XMLPayload>
+        <Namespaces/>
+        <XPath>
+            <Pattern ignoreCase="false">pattern</Pattern>
+            <Expression>expression</Expression>
+            <Type>string</Type>
+        </XPath>
+    </XMLPayload>
+</RegularExpressionProtection>
