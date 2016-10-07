@@ -43,7 +43,7 @@ describe('SQL/Script threat protection', function(){
 	})
 
 	it('General query', function(done){
-		var url = 'http://' + org + '-' + env + '.apigee.net/catalog?query=product'
+		var url = 'https://' + org + '-' + env + '.apigee.net/catalog?query=product'
 			$.ajax({
 				url:url,
 				complete:function(xhr,statusText){
