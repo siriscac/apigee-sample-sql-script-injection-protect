@@ -11,7 +11,7 @@ var secret;
 
 describe('SQL/Script threat protection', function(){
 	it('Inject SQL', function(done){
-		var url = 'http://' + org + '-' + env + '.apigee.net/catalog?query=delete * from table'
+		var url = 'https://' + org + '-' + env + '.apigee.net/catalog?query=delete * from table'
 			$.ajax({
 				url:url,
 				complete:function(xhr,statusText){
@@ -27,7 +27,7 @@ describe('SQL/Script threat protection', function(){
 	})
 
 	it('Inject Script', function(done){
-		var url = 'http://' + org + '-' + env + '.apigee.net/catalog?query=<script>function abc(){}</script>'
+		var url = 'https://' + org + '-' + env + '.apigee.net/catalog?query=<script>function abc(){}</script>'
 			$.ajax({
 				url:url,
 				complete:function(xhr,statusText){
