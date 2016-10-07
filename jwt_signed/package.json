@@ -1,0 +1,23 @@
+{
+  "name": "jwt-signed",
+  "version": "0.0.1",
+  "description": "Sample to test signed JWT",
+  "main": "none",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node deploy/deploy.js",
+    "test": "mocha -R spec"
+  },
+   "dependencies":{
+    "gulp":"*",
+    "apigeetool" : "mukundha/apigeetool-node"
+  },
+  "keywords": [
+    "jwt",
+    "apigee"
+  ],
+  "author": "mukundha@apigee.com",
+  "license": "Apache-2.0"
+}
